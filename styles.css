@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Handlee', cursive;
+    font-size: 21px;
+}
+
+#mainContainer{
+    width: 650px;
+    margin: auto;
+    background-color: white;
+}
+
+#topContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#topContainer > div{
+    width: 50%;
+    padding:15px;
+}
+
+#imageContainer{
+    text-align: right;
+}
+
+#rightContainer img{
+    width: 70px;
+}
+
+#rightContainer input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid gray;
+    line-height: 25px;
+    font-size: 21px;
+    font-family:'Handlee', cursive;
+    margin:10px 0px;
+}
