@@ -39,3 +39,7 @@ body{
     font-family:'Handlee', cursive;
     margin:10px 0px;
 }
+
+a{
+    color: red;
+}
